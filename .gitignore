@@ -1,0 +1,10 @@
+# create .gitignore with common Python ignores
+@"
+venv/
+__pycache__/
+*.pyc
+.env
+.idea/
+.vscode/
+.DS_Store
+"@ > .gitignore
